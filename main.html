@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Meet Houdini</title>
+        <link rel="shortcut icon" type="image/jpg" href="/images/Houdini/houdini_7.png" />
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="page-title">
+                <a href="/index.html">THE GREAT HOUDINI</a>
+            </div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul class="links">
+                    <li><a href="/main.html">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#video-container">Vídeo</a></li>
+                    <li><a href="#magic-game">Cálculo Mágico</a></li>
+                    <li><a href="/store.html">Loja</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- CAPA -->
+        <div class="capa">
+            <img class="main-img" src="/images/Houdini/houdini_12.png" alt="houdini capa" />
+        </div>
+        <!-- ABOUT -->
+        <div class="about" id="about">
+            <div class="about-text">
+                <p id="p1" class="hidden"><strong>NOME:</strong> Ehrich Weisz</p>
+                <p id="p2" class="hidden"><strong>NOME ARTÍSTICO:</strong> Harry Houdini</p>
+                <p id="p3" class="hidden"><strong>NASCIMENTO:</strong> 24 de Março de 1874</p>
+                <p id="p4" class="hidden"><strong>CIDADE:</strong> Budapeste</p>
+                <p id="p5" class="hidden"><strong>PROFISSÃO:</strong> Escapologista</p>
+            </div>
+            <div class="img-profile">
+                <img src="/images/Houdini/houdini_14.png" alt="houdini profile" class="profile-style" />
+            </div>
+        </div>
+        <div class="life-text">
+            <p>
+                Houdini viu-se forçado a trabalhar desde criança, tendo sido perfurador de poços, fotógrafo, contorcionista, trapezista e ferreiro.
+                Foi enquanto ferreiro, já a viver em Nova Iorque, que descobriu a sua vocação para o ilusionismo. O seu chefe pediu-lhe para abrir
+                umas algemas de um polícia que perdera as chaves e Houdini usou um truque para o fazer que viria, posteriormente, a usar nos seus
+                números. Decidiu então dedicar-se à carreira de mágico apostando em números onde se libertava de algemas, correntes, cadeados,
+                escapava de caixas e de tanques fechados, às vezes colocados dentro de água.
+            </p>
+        </div>
+
+        <!-- GALLERY -->
+        <div class="gallery">
+            <div class="photo-container">
+                <img class="photo" src="/images/Houdini/houdini_1.png" alt="houdini algemas" />
+                <p class="photo-text">
+                    Nos truques com algemas, o segredo era simples: Houdini tinha a chave sempre consigo, escondida num dos dedos do pé ou colada com
+                    um adesivo no couro cabeludo.
+                </p>
+            </div>
+            <div class="photo-container">
+                <img class="photo" src="/images/Houdini/houdini_4.png" alt="houdini contentor" />
+                <p class="photo-text">
+                    Houdini trabalhou como agente secreto durante muitos anos, espiando os reis e líderes políticos da Europa para os governos
+                    americano e britânico.
+                </p>
+            </div>
+            <div class="photo-container">
+                <img class="photo" src="/images/Houdini/houdini_11.png" alt="houdini professor" />
+                <p class="photo-text">
+                    Durante a Primeira Guerra Mundial, Houdini entreteve tropas e deu aulas aos soldados, demonstrando como escapar de cordas, algemas
+                    e naufrágios.
+                </p>
+            </div>
+        </div>
+        <!-- VIDEO -->
+        <div class="video-container" id="video-container">
+            <video src="/videos/Houdini Bridge Jump with Handcuff Escape.mp4" autoplay muted loop></video>
+        </div>
+
+        <!-- MAGIC GAME -->
+        <div class="magic-game" id="magic-game">
+            <h2 class="magic-title">CÁLCULO MÁGICO</h2>
+            <div class="cards-container">
+                <div class="card card1">Pensa num número com três algarismos diferentes = ABC</div>
+                <div class="card card2">Inverte esse número = CBA</div>
+                <div class="card card3">Subtrai o número mais pequeno ao número maior (ABC-CBA ou CBA-ABC). Obtens um resultado = XYZ</div>
+                <div class="card card4">Agora inverte o resultado XYZ. Obtens um número = ZYX</div>
+                <div class="card card5">Soma o número XYZ com o número ZYX</div>
+            </div>
+            <div class="number">
+                <div class="final"><h3>O teu número final é:</h3></div>
+                <div class="result"><span class="result_number">???</span></div>
+            </div>
+            <div class="reset">
+                <button type="reset" class="reset_button">Começar de novo</button>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="footer-text">Copyright ©️ 2021 Luís David. Todos os direitos reservados.</div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Store</title>
+        <link rel="stylesheet" href="store.css" />
+    </head>
+    <body>
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <div class="page-title">
+                <a href="/index.html">THE GREAT HOUDINI</a>
+            </div>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar-links">
+                <ul class="links">
+                    <li><a href="/main.html">Home</a></li>
+                    <li><a href="/main.html">Sobre</a></li>
+                    <li><a href="/main.html">Vídeo</a></li>
+                    <li><a href="/main.html">Magic Game</a></li>
+                    <li><a href="#">Loja</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- STORE -->
+        <!-- STORE TITLE -->
+        <h1 class="store-title">Buy Houdini's Straight Jacket</h1>
+        <!-- STORE CART -->
+        <div class="cart-info">
+            <div class="cart">
+                <h3>Your cart:</h3>
+                <p class="cart-number">0 produto(s) selecionado(s)</p>
+            </div>
+            <div class="total">
+                <h3>Total:</h3>
+                <p class="total-price">0,00 €</p>
+            </div>
+            <button class="reset-cart" type="reset">Reset Cart</button>
+        </div>
+        <!-- STORE PRODUCTS -->
+        <div class="store-products" id="store">
+            <div class="product-container">
+                <img src="/images/store/straightjacket.png" alt="casaco de forças" />
+                <h4 class="product-name">STRAIGHT JACKET</h4>
+                <h4 class="product-price">29,99€</h4>
+                <input class="product-number" type="number" min="1" max="5" value="0" />
+                <button class="add-cart" type="button">Add to cart</button>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="footer-text">Copyright ©️ 2021 Luís David. Todos os direitos reservados.</div>
+        </div>
+        <script src="store.js"></script>
+    </body>
+</html>
